@@ -19,7 +19,7 @@ groups of between 1 and 3 people (no more than 3, though).
 ## Logisim
 
 We'll use the [Logisim
-program](http://ozark.hendrix.edu/~burch/logisim/index.html) for this
+program](http://www.cburch.com/logisim/index.html) for this
 simulation. It's written in Java and on Linux is just a simple JAR file.
 (There are platform specific executables for Mac and Windows if you're
 interested.) I've got a copy of the JAR file in my pub directory, which
@@ -28,8 +28,9 @@ you can run from wherever you wish:
 java -jar /home/mcphee/pub/CSci3401/logisim.jar
 ````
 
-The Logisim folks have a nice introductory tutorial on their web site:
-<http://ozark.hendrix.edu/~burch/logisim/docs/2.7/en/html/guide/tutorial/index.html>
+The Logisim folks have 
+[a nice introductory tutorial](http://www.cburch.com/logisim/docs/2.7/en/html/guide/tutorial/index.html) 
+on their web site.
 
 If you're running it on a large monitor it might be easier for everyone
 in your group to see if you magnify things; the zoom option in the
