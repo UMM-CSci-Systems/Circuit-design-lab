@@ -1,7 +1,8 @@
 # Circuit-design-lab
+
 The write-up for the "Circuit Design" lab; there's no code or other materials for this lab.
 
-### Background
+## Background
 
 The intent of this exercise is to gain a little experience with using
 digital logic to construct some key components of a CPU:
@@ -15,7 +16,7 @@ digital logic to construct some key components of a CPU:
 Nothing will need to be turned in for this, and you can form your own
 groups of between 1 and 3 people (no more than 3, though).
 
-### Logisim
+## Logisim
 
 We'll use the [Logisim
 program](http://ozark.hendrix.edu/~burch/logisim/index.html) for this
@@ -39,13 +40,13 @@ circuit...** menu option.
 
 ------------------------------------------------------------------------
 
-### Build some simple things
+## Build some simple things
 
 You may want to save your solutions to these simpler exercises so you
 can re-use them in the solutions to some of the more complex exercises
 below.
 
-#### 2-to-1 multiplexer
+### 2-to-1 multiplexer
 
 A [multiplexer](http://en.wikipedia.org/wiki/Multiplexer) (MUX) provides
 the rough equivalent of an if-then-else in the land of digital
@@ -56,12 +57,12 @@ Build a 2-to-1 multiplexer which has two input wires, *x0* and *x1*, one
 selector wire *s*, and one output wire *y*. If *s* is 0, then *y* should
 be *x0*; otherwise it should be *x1*.
 
-#### 1-bit half adder
+### 1-bit half adder
 
 Build a 1-bit half adder. This takes two input wires, *x0* and *x1*, and
 generates two output wires, *s* for the sum and *c* for the carry.
 
-#### 1-bit full adder
+### 1-bit full adder
 
 The half-adder from the previous exercise can't be composed to make
 larger adders because it doesn't take a carry *input*, which is
@@ -69,7 +70,7 @@ necessary if we're to chain then. Build a 1-bit full adder which takes
 *c × in*, *x0*, and *x1* as inputs, and generates *s* and *c*. (Note that
 we don't need any additional outputs here.)
 
-#### Build an SR NOR latch
+### Build an SR NOR latch
 
 Common feed-forward circuits can't "remember" or store any data. If,
 however, we allow the output of a circuit to become part of it's input,
@@ -87,13 +88,13 @@ even after bringing *R* back to low.
 
 ------------------------------------------------------------------------
 
-### Build some more complex things
+## Build some more complex things
 
 As time allows, try to build on the work you've done to create more
 complex circuits. Feel free to choose the exercises that interest you
 the most, especially as time begins to run low on the lab period.
 
-#### 4-to-1 multiplexer
+### 4-to-1 multiplexer
 
 Build a 4-to-1 multiplexer which has four input wires, *x0*, *x1*, *x2*,
 and *x3*, two selector wire *s0* and *s1* (collectively known as *s*),
@@ -104,7 +105,7 @@ encoding a two-digit binary number, then the output *y* should be
 You should be able to build a 4-to-1 multiplexer fairly easily by
 combining multiple 2-to-1 multiplexers from before.
 
-#### 2- and 4-bit full adder
+### 2- and 4-bit full adder
 
 Use the 1-bit full adder from above to build a 2-bit full adder. That
 will take five inputs, *c × in*, *x0*, *x1*, *y0*, and *y1*, and generate
@@ -112,7 +113,7 @@ two output bits *s0* and *s1* along with the carry *c*.
 
 Then leverage that to build a cascading 4-bit full adder.
 
-#### Build an Gated D latch
+### Build an Gated D latch
 
 Combining latches into multi-bit memories is pretty straightforward
 since the latches are essentially independent. So instead of building
@@ -123,6 +124,6 @@ information from the input *D* and store it. When *E* is low, then the
 latch continues to output whatever it was storing, regardless of changes
 on *D*.
 
--- Main.NicMcPhee - 03 Oct 2011 -- Main.VincentBorchardt - 21 Jun 2012
+---
 
--- Main.JohnMcCall - 16 Sep 2013
+People that contributed to this write-up before it was moved to Github included Nic McPhee, Vincent Borchardt, and John McCall.
