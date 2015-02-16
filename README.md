@@ -1,6 +1,6 @@
 # Circuit-design-lab
 
-The write-up for the "Circuit Design" lab; there's no code or other materials for this lab.
+The write-up for the "Circuit Design" lab. There's no code or other materials for this lab, but it does use the [Logisim program](http://www.cburch.com/logisim/index.html) as the circuit design tool.
 
 ## Background
 
