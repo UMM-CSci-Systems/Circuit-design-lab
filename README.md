@@ -74,9 +74,9 @@ we don't need any additional outputs here.)
 ### Build an SR NOR latch
 
 Common feed-forward circuits can't "remember" or store any data. If,
-however, we allow the output of a circuit to become part of it's input,
+however, we allow the output of a circuit to become part of its input,
 we can create circuits that will hold a bit of information until certain
-combinations of inputs are used to change it's value. An [SR NOR
+combinations of inputs are used to change its value. An [SR NOR
 latch](http://en.wikipedia.org/wiki/Latch_(electronics)#SR_NOR_latch),
 for example, has two inputs *S* (for set) and *R* (for reset), and two
 outputs *Q* and *Q'*. *Q* and *Q'* remain constant, with the property
